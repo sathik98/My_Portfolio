@@ -1,18 +1,65 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
+.heading:hover {
+  /* background-image: linear-gradient(green, yellow); */
+}
+.my_portfolio {
+  color: greenyellow !important;
+}
+.my_portfolio:hover {
+  color: red !important;
+}
+.navi Nav.Link {
+  color: aqua !important;
+}
 
-.heading_one {
+.navi {
+  margin-left: 75% !important;
+}
+.profile {
+  height: 0px !important;
+  /* background-image: linear-gradient(blue, white); */
+}
+.mainOutline {
+  margin-left: 15%;
+  position: relative;
+  bottom: 550px;
+  width: 80%;
+  border: 0px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.pro-img img {
+  padding: 5% !important;
+  background-color: transparent !important;
+}
+
+.pro-msg {
   color: green;
+  font-size: 40px;
+  margin-top: 5%;
+  margin-right: 25%;
+}
+.pro-msg b {
+  color: red;
+}
+.designation {
+  color: blue;
+}
+.pro-details {
+  background-color: red !important;
 }
